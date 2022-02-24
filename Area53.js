@@ -123,8 +123,14 @@ console.log(x)
 
 // removes the food with price over price given
 
-const deleteFood2 = (foods,price)=>{
-
-
-
+const deleteFood1 = (foods,price)=>{
+  return foods.filter(foods=>{
+    return foods.price < 22
+  })
 }
+let x = deleteFood1(mexican)
+let z = deleteFood1(american)
+console.log(x)
+console.log(z)
+
+
