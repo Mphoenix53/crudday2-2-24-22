@@ -97,3 +97,34 @@ const updateFood1=(foods, id )=>{
 
 const z = updateFood1(american,2)
 console.log(z)
+// FILTER
+
+// foods:[{id:number,name:string, price:number},...]
+
+// id:number,
+
+// removes the food with the given the id
+
+const deleteFood1 = (foods,id)=>{
+  return foods.filter(foods=>{
+    return foods.id !== id
+  })
+}
+let x = deleteFood1(mexican,1)
+console.log(x)
+
+
+
+// FILTER
+
+// foods:[{id:number,name:string, price:number},...]
+
+// price:number,
+
+// removes the food with price over price given
+
+const deleteFood2 = (foods,price)=>{
+
+
+
+}
